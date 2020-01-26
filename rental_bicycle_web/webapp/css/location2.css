@@ -1,0 +1,25 @@
+body{ font-family:arial; padding:20px; }
+input{ display:none; }
+label{ padding:.2em .5em; }
+label:hover{ background:#ccc; cursor:pointer; }
+input:checked + label{ font-weight:bold; background:#ccc; }
+
+.flex{
+  display: flex;
+
+  max-width: 700px; /* макс ширина блока */
+  margin: 0 auto; /* выравниваем блок по центру */
+
+}
+.item{ padding:5px; background:#b5ced8; border-radius:3px; }
+.item:nth-child(1){ flex:0 1 70%; margin-right:5px; z-index:2; }
+.item:nth-child(2){ flex:0 1 30%; margin-right:5px; z-index:2; }
+
+.wide{ background:rgba(255,255,255,.5); margin:1em 0; padding:1em; box-sizing:border-box; width:300px; transition:width 500ms; }
+.wide:hover{ width:500px; }
+
+#width:checked ~ .flex .item:nth-child(1){ width:70%; }
+#width:checked ~ .flex .item:nth-child(2){ width:30%; }
+
+#maxwidth:checked ~ .flex .item:nth-child(1){ max-width:70%; }
+#maxwidth:checked ~ .flex .item:nth-child(2){ max-width:30%; }

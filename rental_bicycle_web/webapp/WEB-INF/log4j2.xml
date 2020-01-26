@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Configuration status = "warn" strict = "true">
+    <Properties>
+        <Property name = "filename">${sys:catalina.home}/logs/logcat.log</Property>
+        <!--<Property name = "filename">C:/Users/Mari/logcat.log</Property>-->
+    </Properties>
+    <Appenders>
+        <Appender type = "File" name = "basic" filename = "${filename}" >
+            <PatternLayout
+                    pattern = "%d{HH:mm:ss.SSS} %-5level %logger: %msg%n"/>
+        </Appender>
+    </Appenders>
+    <Loggers>
+        <Logger name = "by.training.task05"
+                level = "DEBUG" additivity = "false">
+            <AppenderRef ref = "basic"/>
+        </Logger>
+        <Root level = "DEBUG">
+        </Root>
+    </Loggers>
+</Configuration>
+

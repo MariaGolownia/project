@@ -1,0 +1,25 @@
+body{ font-family:arial; padding:20px; }
+input{ display:none; }
+label{ padding:.2em .5em; }
+label:hover{ background:#ccc; cursor:pointer; }
+input:checked + label{ font-weight:bold; background:#ccc; }
+
+.flex2{
+  display: flex;
+
+  max-width: 5000px; /* макс ширина блока */
+  margin: 0 auto; /* выравниваем блок по центру */
+
+}
+.item2{ padding:5px; background:#b5ced8; border-radius:3px; }
+.item2:nth-child(1){ flex:0 1 30%; margin-right:5px; z-index:2; }
+.item2:nth-child(2){ flex:0 1 50%; margin-right:5px; z-index:2; }
+
+.wide{ background:rgba(255,255,255,.5); margin:1em 0; padding:1em; box-sizing:border-box; width:1000px; transition:width 500ms; }
+.wide:hover{ width:1000px; }
+
+#width:checked ~ .flex2 .item2:nth-child(1){ width: 500px; }
+#width:checked ~ .flex2 .item2:nth-child(2){ width: 500px; }
+
+#maxwidth:checked ~ .flex2 .item2:nth-child(1){ max-width: 1000px; }
+#maxwidth:checked ~ .flex2 .item2:nth-child(2){ max-width: 1000px; }

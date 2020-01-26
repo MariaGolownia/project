@@ -1,0 +1,40 @@
+nav_tag.name_app = АРЕНДА ВЕЛОСИПЕДОВ
+nav_tag.about_company = Нажмите для получения информации о нас
+nav_tag.language = Язык
+nav_tag.language.russian = Русский
+nav_tag.language.english = Английский
+nav_tag.exit = Выход
+authorization_page.signing = Пожалуйста, войдите в систему
+authorization_page.label.login = Введите Ваш логин
+authorization_page.label.password = Введите Ваш пароль
+authorization_page.input.rebember_me = Запомнить меня
+authorization_page.button.submit = Войти
+about_page.invocation1 = Катайтесь
+about_page.invocation2 = Ездите на работу
+about_page.invocation3 = В удовольствие
+about_page.invocation4 = Как можно чаще
+about_page.invocation5 = Всегда
+about_page.invocation6 = Наслаждайтесь
+about_page.label.about_us = О нас
+about_page.label.about_bic = О велосипедах
+about_page.label.contact = Наши контакты
+
+about_page.text.about_us1 = We are a company offering rental bicycles of well-known manufacturers.
+about_page.text.about_us2 = Do you ride a bicycle? I fancy it so much! To go for a ride alone or with my friends in the evening is a big joy for me. First of all, this is a kind of sport. Sitting at the computer desk all day long is not actually that healthy.
+about_page.text.about_us3 = We don’t do much physical work, and for this reason, we feel the need for exercise at the end of the day.
+about_page.text.about_us4 = It is well-known that sedentary life may cause a lot of diseases. But in most cases we just don’t have any choice because this is our job. I think that One of the solutions of the problem is using a bicycle instead of public transport or a car. Bicycling is widely spread in the developed European countries. It is difficult to say, for example, whether the number of cyclists exceeds that of car drivers in the Netherlands or vice versa.
+about_page.text.about_us5 = When you look at the empty roads of Rotterdam you have a feeling that the cyclists definitely have some advantage. Bicycling means not only a healthy way of life but also the improvement of the city ecology and saving of your own money.
+about_page.text.about_bic1 = The bicycle has a very interesting inner history of invention which started long time ago. They say that Leonardo da Vinchy was the first to invent a bicycle. There are no facts in proof of this claim but taking into account all his developments it is easy to believe that it could have been his invention. But one thing is to suppose, the other thing is to have some facts. People have been using the bicycle for 200 years!
+about_page.text.about_bic2 = A real history started with the invention of German Baron Karl von Drais. He presented his wooden “Draisienne” in about 1818. His vehicle was quite similar to the modern bicycle but there with a slight difference; namely, it didn’t have any pedals.
+about_page.text.about_bic3 = The first bicycle was run with the help of the legs. Only in 20 years later the “Draisienne” vehicle was improved by Kirkpatrick MacMillan, a Scottish blacksmith, who added this missing element. During the XIX century different people from Europe and America worked at the modification of the bicycle but the most important modification was made in the second half of the XIX century when James K. Star, a Scottish veterinarian, added an irrigation hose to the wheels. Thus, the tire became an integral part of the bicycle. It can be said that after the tires had been installed the period of modern bicycle started. And now about 100 million bicycles are sold worldwide each year.
+about_page.text.contact1 = Our telephone numbers: Belarus: 8 029 777 77 77, 8 029 888 88 88 Poland: 8 048 777 77 77, 8 048 888 88 88 Lithuania: 8 370 777 77 77, 8 370 888 88 88 The first person who circled the globe by bicycle in 1935 was Fred A. Birchmore. He crossed Europe, Asia, the United States having covered the distance of 40 000 miles. It is difficult to imagine the number of tires he used! I believe that it was the best year of his life.
+about_page.text.contact2 = And what about the most famous bicycle race “Tour de France”? It was the year of 1903 when it started for the first time. From the time the bicycle was invented and up to the present moment it has become not only the vehicle but the style of life. It is possible to find lots of examples of cooperation between a man and a bicycle when acting together they have become a team. But the main question whether there is a place for bicycle in your life.
+about_page.text.contact3 =  I was 5 years old when one morning my parents met me with inscrutable smiles. A new blue bicycle was waiting for me behind the door. During the next few years I and my friends spent hours riding the bicycles almost every day. I will remember forever the moment when I saw my first bicycle.
+about_page.after.about_us = Выбирайте нас
+about_page.after.about_bic = Выбирайте наши велосипеды
+about_page.after.contact = Обращайтесь к нам
+
+
+
+Используемый конвертер:
+https://calcsbox.com/post/konverter-teksta-v-unikod.html

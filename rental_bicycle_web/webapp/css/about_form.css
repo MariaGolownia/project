@@ -1,0 +1,135 @@
+html {
+    background-image: url('../img/site_img/background.jpg');
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div, h2, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 20px;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main-column {
+
+}
+
+.article {
+    background: white;
+    color: #666;
+    display: flex;
+    flex: 0.33333;
+    flex: 1;
+    flex-direction: column;
+    flex-basis: auto;
+    margin: 10px;
+}
+
+
+.article-image {
+    background: #eee;
+    display: block;
+    padding-top: 75%;
+    position: relative;
+    width: 100%;
+}
+
+.article-image img {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+input[type=text]{
+    width:520px;
+}
+
+input[type=button]{
+    width:500px;
+
+}
+
+.article-image.is-16by9 {
+    padding-top: 75%;
+}
+
+
+.article-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.article-title {
+    color: #333;
+    flex-shrink: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.article-content {
+    flex: 1;
+    margin-top: 1px;
+}
+
+.article-info {
+    display: flex;
+    font-size: 0.85em;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.my_flex_container1{
+    display: flex;
+    flex-direcrion:row;
+    justify-content:space-between;
+    align-items: flex-start;
+
+}
+
+
+.my_flex_block {
+    width: 300px;
+    height: 20px;
+    margin: auto;
+    background-color: #E5EBFE;
+    text-align: center;
+    font-style:italic;
+    font-weight:bold;
+    font-family: ‘Monotype Corsiva’;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);}
+
+
+
+.caption{
+    background-color: #E5EBFE;
+    text-align: center;
+    font-style:italic;
+    font-family: ‘Monotype Corsiva’;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);}

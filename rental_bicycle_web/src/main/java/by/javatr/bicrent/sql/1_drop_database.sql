@@ -1,0 +1,1 @@
+DROP DATABASE IF EXISTS `rental_bicycle_web`;

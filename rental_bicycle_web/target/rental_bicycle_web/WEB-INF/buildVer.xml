@@ -1,0 +1,15 @@
+<project name="rental_bicycle_web" default="init" basedir=".">
+    <description/>
+    <!-- set global properties for this build -->
+    <property name="src" location="../src"/>
+
+    <target name="init">
+        <buildnumber/>
+        <replaceregexp file="./tags/footer.tag"
+                       match="v1.*"
+                       replace="v1.${build.number}"
+                       byline="true"
+        />
+
+    </target>
+</project>

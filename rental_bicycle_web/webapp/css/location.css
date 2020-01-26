@@ -1,0 +1,48 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-location {
+  max-width: 330px;
+  padding: 10px;
+  margin: 0;
+}
+.form-location .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-location .form-control {
+  position: static;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-location .form-control:focus {
+  z-index: 2;
+}
+.form-location input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-location input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.rightpic {
+  float: left; /* Выравнивание по правому краю */
+  margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+  max-width: 50px;
+  max-height: 50px;
+  padding: 100px;
+}

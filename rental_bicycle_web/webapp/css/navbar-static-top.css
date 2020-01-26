@@ -1,0 +1,8 @@
+body {
+    min-height: 2000px;
+}
+
+.navbar navbar-default navbar-static-top {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}

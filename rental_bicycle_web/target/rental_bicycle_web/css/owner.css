@@ -1,0 +1,9 @@
+.sr-show{
+    position: relative;
+    width: 500px;
+    height:20px;
+    padding:0;
+    margin:-1px;
+    overflow:visible;
+    clip: rect(0,0,0,0);
+    border:1px}

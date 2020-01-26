@@ -1,0 +1,30 @@
+body{ font-family:arial; padding:0px; }
+input{ display:none; }
+label{ padding:.2em .5em; }
+label:hover{ background:#ccc; cursor:pointer; }
+input:checked + label{ font-weight:bold; background:#ccc; }
+
+.flex-rent{
+  display: flex;
+
+  max-width: 700px; /* макс ширина блока */
+  margin: 0 auto; /* выравниваем блок по центру */
+
+}
+.item-rent{ padding:5px; background:#b5ced8; border-radius:3px; }
+.item-rent:nth-child(1){ flex:0 1 10%; margin-right:5px; z-index:3; }
+.item-rent:nth-child(2){ flex:0 1 80%; margin-right:5px; z-index:2; }
+.item-rent:nth-child(3){ flex:0 1 10%; margin-right:5px; z-index:1; }
+
+
+.wide{ background:rgba(255,255,255,.5); margin:1em 0; padding:1em; box-sizing:border-box; width:300px; transition:width 500ms; }
+.wide:hover{ width:500px; }
+
+#width:checked ~ .flex-rent .item-rent:nth-child(1){ width:10%; }
+#width:checked ~ .flex-rent .item-rent:nth-child(2){ width:80%; }
+#width:checked ~ .flex-rent .item-rent:nth-child(3){ width:10%; }
+
+
+#maxwidth:checked ~ .flex-rent .item-rent:nth-child(1){ max-width:10%; }
+#maxwidth:checked ~ .flex-rent .item-rent:nth-child(2){ max-width:80%; }
+#maxwidth:checked ~ .flex-rent .item-rent:nth-child(3){ max-width:10%; }

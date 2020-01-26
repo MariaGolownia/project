@@ -1,0 +1,9 @@
+label.required:not(:empty):after,
+.field-header.required:after {
+    content: " *";
+    color: red;
+    position: relative;
+    right: 0px;
+    top: 0px;
+
+}

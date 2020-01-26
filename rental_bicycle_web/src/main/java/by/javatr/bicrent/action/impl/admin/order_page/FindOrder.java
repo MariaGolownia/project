@@ -30,7 +30,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-// test
 // if mode = 1 => work/return with location
 // if mode = 2 => work/return with user
 // if mode = 3 => work/return with list of bicycles
